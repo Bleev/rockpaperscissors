@@ -7,3 +7,25 @@
   justify-content:space-between;
   
 }
+#firstp {
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+}
+#title {
+  font-family: 'Audiowide', cursive;
+}
+#p {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 25px;
+}
+#com {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+#user {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+#userChoice {
+  font-family: 'Indie Flower', cursive;
+}

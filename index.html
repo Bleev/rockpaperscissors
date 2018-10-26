@@ -5,6 +5,11 @@
   <title>RPS Game</title>
   <!-- Link CSS here -->
   <link type='text/css' rel='stylesheet' href='css/style.css' />
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 
 <body>
@@ -19,8 +24,12 @@
         6. Add a div to record the Winner.
      -->
   <div class="row">
-      <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+      <h1 id="title">Play some Rock, Paper, Scissors! REEEEEEEEEEEEEEEEEEEEEEEEEEE!</h1>
+      <p id="p"> How to Play Rock, Paper Scissors:</p>
+      <p id="firstp"> Rock, Paper, Scissors is very simple. It's a game between two sides where each side has 3 choices. Both can choose either
+      Rock, Paper, or Scissors. Each choice beats another but can also be beat by the other. Rock beats Scissors, Scissors beats Paper, and Paper
+      beats Rock! </p>
+      <img src="https://i.pinimg.com/originals/0b/2d/e3/0b2de3ab5cdc2e993bcd7ba913e583c9.jpg">
 
       <h3>Please Submit Your Choice Below</h3>
       <div>
@@ -30,11 +39,11 @@
 
       <div id="choices" class="row">
         <div>
-          <h4>User Choice</h4>
+          <h4 id="user">User Choice</h4>
           <p id="userChoice"></p>
         </div>
         <div>
-          <h4>Computer Choice</h4>
+          <h4 id="com">Computer Choice</h4>
           <p id="computerChoice"></p>
         </div>
       </div>
